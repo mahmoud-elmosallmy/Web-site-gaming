@@ -1,0 +1,56 @@
+.hero-main {
+    background: url('../../asset/banner-bg.jpg') no-repeat top right/cover;
+    background-color: var(--color-dark);
+    color: white;
+    border-radius: 25px;
+    padding: var(--padding-primary);
+}
+
+.hero-text {
+    max-width: 500px;
+}
+.hero-title {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: calc(var(--margin-primary) / 2);
+    font-weight: var(--font-weight-bold);
+}
+
+.hero-title em {
+    font-style: normal;
+    color: var(--color-primary)
+}
+.hero-subtitle {
+    font-size: 20px;
+    font-weight: var(--font-weight-normal);
+    margin-bottom: calc(var(--margin-primary) / 2);
+    color: var(--color-light);
+}
+
+@media screen and (max-width: 767px) {
+    .hero-title {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: var(--font-weight-bold);
+    }
+    .hero-main .button a {
+        font-size: 10px;
+        padding: 8px 24px;
+    }
+    .section-header h4 {
+        font-size: 20px;
+    }
+    .mostpopular .most-popular-item-content ul {
+        font-size: 12px;
+    }
+    .mostpopular .most-popular-item .most-popular-item-title span {
+        margin-top: 0px;
+    }
+    .mostpopular .most-popular-item .most-popular-item-title {
+        font-size: 11px;
+    }
+    .button a {
+        font-size: 9px;
+        padding: 11px 8px;
+    }
+}

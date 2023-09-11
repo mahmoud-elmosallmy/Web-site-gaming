@@ -1,0 +1,58 @@
+export const data = [
+    {
+        img: require('../asset/popular-01.jpg'),
+        title: "Fortnite",
+        titleTow: "Sandbox",
+        valuation: "4.8",
+        size: "2.3M",
+    },
+    {
+        img: require('../asset/popular-02.jpg'),
+        title: "PubG",
+        titleTow: "Battle S",
+        valuation: "4.8",
+        size: "2.3M",
+    },
+    {
+        img: require('../asset/popular-03.jpg'),
+        title: "Dota2",
+        titleTow: "Steam-X",
+        valuation: "4.8",
+        size: "2.3M",
+    },
+    {
+        img: require('../asset/popular-04.jpg'),
+        title: "CS-GO",
+        titleTow: "Legendary",
+        valuation: "4.8",
+        size: "2.3M",
+    },
+    {
+        img: require('../asset/popular-05.jpg'),
+        title: "Mini Craft",
+        titleTow: "Legendary",
+        valuation: "4.8",
+        size: "2.3M",
+    },
+    {
+        img: require('../asset/popular-06.jpg'),
+        title: "Eagles Fly",
+        titleTow: "Matrix Games",
+        valuation: "4.8",
+        size: "2.3M",
+    },
+    {
+        img: require('../asset/popular-07.jpg'),
+        title: "Warface",
+        titleTow: "Max 3D",
+        valuation: "4.8",
+        size: "2.3M",
+    },
+    {
+        img: require('../asset/popular-08.jpg'),
+        title: "Warcraft",
+        titleTow: "Legend",
+        valuation: "4.8",
+        size: "2.3M",
+    },
+]

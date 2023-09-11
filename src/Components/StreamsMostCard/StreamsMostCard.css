@@ -1,0 +1,52 @@
+.moststreamers {
+    display: flex;
+    margin-top: 40px;
+}
+.moststreamers .item {
+    margin-bottom: 30px;
+}
+.moststreamers .item .position {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.moststreamers .item img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 40px;
+}
+.moststreamers ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.moststreamers ul img {
+    padding-left: 0;
+    overflow: hidden;
+    border-radius: 40px;
+    max-width: 46px;
+    border-radius: 50%;
+}
+.moststreamers ul li:last-of-type span{
+    color: #ec6090;
+    font-size: 14px;
+}
+.moststreamers ul li:last-of-type svg {
+    background-color: #ec6090;
+    margin-right: 2px;
+    font-size: 24px;
+    padding: 4px;
+    border-radius: 50%;
+}
+.moststreamers h4 {
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+@media screen and (max-width: 767px) {
+    .moststreamers .cont {
+        border-bottom: 1px solid #666;
+        margin-bottom: 35px;
+    }
+}

@@ -1,0 +1,6 @@
+.section-header h4 {
+    color: var(--color-light);
+    font-size: 36px;
+    text-decoration: underline;
+    font-weight: var(--font-weight-bold);
+}

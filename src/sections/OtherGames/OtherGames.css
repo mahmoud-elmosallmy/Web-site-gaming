@@ -1,0 +1,44 @@
+.other-games .most-popular-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    gap: 20px;
+}
+.other-games .most-popular-item {
+    flex: 1 48%;
+    border-bottom: 1px solid #27292a;
+}
+.other-games .most-popular-item .card-wrapper {
+    padding: calc(var(--padding-primary) / 2);
+    margin: calc(var(--margin-primary) / 5);
+
+    display: flex;
+    align-items: center;
+}
+.other-games .most-popular-item .most-popular-item-image {
+    max-width: 80px;
+    border-radius: 23px;
+    margin-right: 15px;
+    border-radius: var(--border-radius-secondary);
+    margin-bottom: calc(var(--margin-primary) / 2);
+}
+.other-games .most-popular-item .most-popular-item-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.other-games .most-popular-item .most-popular-item-content ul {
+    padding-left: 0;
+    text-align: right;
+}
+.other-games .most-popular-item .most-popular-item-title {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.other-games .most-popular-item .most-popular-item-title span {
+    color: #666;
+    display: block;
+    margin-top: 7px;
+    font-weight: 400;
+}

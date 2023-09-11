@@ -1,0 +1,46 @@
+.cardprofile {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardprofile .item {
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius-secondary);
+    padding: 30px 15px;
+    margin-bottom: 30px;
+}
+.cardprofile .thumb {
+    position: relative;
+    margin-bottom: 15px;
+}
+.cardprofile .thumb img {
+    border-radius: 23px;
+}
+.cardprofile .thumb a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-23px, -23px);
+    width: 46px;
+    height: 46px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 46px;
+    color: #ec6090;
+}
+.cardprofile .content {
+    display: flex;
+    justify-content: space-between;
+}
+.cardprofile .content h4 {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: 700;
+}
+.cardprofile .content span svg {
+    color: #ec6090;
+    margin-right: 5px;
+}

@@ -1,0 +1,24 @@
+.cyborg-navbar {
+    min-height: 100px;
+}
+.collapse .nav-link:focus,
+.collapse li:hover .nav-link ,
+.collapse a.active {
+    color: var(--color-primary) !important;
+}
+.navbar .collapse a.profile {
+    display: flex;
+    background-color: var(--color-dark);
+    padding: 8px 10px 8px 20px;
+    border-radius: 23px;
+}
+.navbar .collapse a.profile img {
+    border-radius: 50%;
+    max-width: 30px;
+    margin-left: 10px;
+}
+.navbar .collapse li:last-child a.active:hover ,
+.navbar .collapse li:last-child a.active {
+    background-color: var(--color-primary);
+    color: white !important;
+}

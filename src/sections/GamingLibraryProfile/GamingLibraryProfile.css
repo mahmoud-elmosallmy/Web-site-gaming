@@ -1,0 +1,9 @@
+.gaminglibraryprofile .gaming-library-card ul {
+    border-bottom: 0;
+}
+.gaminglibraryprofile .gaming-library-card {
+    border-bottom: 1px solid #666;
+}
+.gaminglibraryprofile .gaming-library-card:last-child {
+    border-bottom: 0;
+}

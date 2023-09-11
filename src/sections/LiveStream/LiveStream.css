@@ -1,0 +1,41 @@
+.livestream-main .livestream-title {
+    text-align: center;
+    margin-top: 40px;
+}
+.livestream-main .livestream-container {
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+.livestream-main .livestream-container .livestream-card {
+    padding: 30px;
+    border: 1px solid #444;
+    border-radius: 23px;
+    text-align: center;
+}
+.livestream-main .livestream-card img {
+    border-radius: 50%;
+    width: fit-content;
+}
+.livestream-main .livestream-card h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.livestream-main .livestream-card p {
+    font-size: 15px;
+    color: #666;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .livestream-main .livestream-container .row {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .livestream-main .livestream-container .livestream-card {
+        padding: 25px;
+    }
+}

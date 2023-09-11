@@ -1,0 +1,79 @@
+/* .game-con {
+    display: flex;
+} */
+.left-info h4 {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.left-info p,
+.game-details p {
+    color: #666;
+    display: block;
+    margin-top: 7px;
+    font-weight: 400;
+}
+.game-details .left-info,
+.game-details .right-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-dark);
+    padding: calc(var(--padding-primary) / 2);
+    border-radius: var(--border-radius-secondary);
+    /* margin: calc(var(--margin-primary) / 5); */
+    margin-bottom: 30px;
+}
+.game-details .left-info p {
+    margin-bottom: 0;
+}
+.game-details .left-info ul li span {
+    margin-right: 8px;
+}
+.right-info ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 0;
+}
+.right-info ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+.game-details .img-center {
+    border-radius: 23px;
+    margin-bottom: 30px;
+}
+.game-details p a {
+    color: white;
+}
+.game-details .secondary-btn {
+    display: flex;
+}
+.game-details .secondary-btn a {
+    border: 1px solid var(--color-primary);
+    width: 100%;
+    text-align: center;
+}
+.game-details .secondary-btn a:hover {
+    border: 1px solid var(--color-light);
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 767px) {
+    .game-details .left-info {
+        justify-content: center;
+        align-items: center;
+    }
+    .game-details .right-info ul,
+    .other-games .most-popular-item .card-wrapper {
+        flex-direction: column;
+    }
+    .other-games .most-popular-item .most-popular-item-content {
+        width: 140% !important;
+        justify-content: space-between;
+    }
+}

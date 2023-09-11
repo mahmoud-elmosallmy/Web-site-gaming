@@ -1,0 +1,39 @@
+.mostpopular .most-popular-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.mostpopular .most-popular-item {
+    flex: 1 25%;
+}
+.mostpopular .most-popular-item .card-wrapper {
+    background-color: var(--color-dark);
+    padding: calc(var(--padding-primary) / 2);
+    border-radius: var(--border-radius-secondary);
+    margin: calc(var(--margin-primary) / 5);
+}
+.mostpopular .most-popular-item .most-popular-item-image {
+    width: 100%;
+    height: 160px;
+    border-radius: var(--border-radius-secondary);
+    margin-bottom: calc(var(--margin-primary) / 2);
+}
+.mostpopular .most-popular-item .most-popular-item-content {
+    display: flex;
+    justify-content: space-between;
+}
+.mostpopular .most-popular-item .most-popular-item-content ul {
+    padding-left: 0;
+    text-align: right;
+}
+.mostpopular .most-popular-item .most-popular-item-title {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.mostpopular .most-popular-item .most-popular-item-title span {
+    color: #666;
+    display: block;
+    margin-top: 7px;
+    font-weight: 400;
+}

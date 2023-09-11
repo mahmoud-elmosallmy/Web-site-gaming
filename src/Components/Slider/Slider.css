@@ -1,0 +1,53 @@
+.swiper {
+    position: initial;
+    margin-top: 20px;
+}
+.swiper h4{
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.swiper-button-prev {
+    top: 50px;
+    right: 55px;
+    left: auto;
+    transition: all .3s;
+}
+.swiper-button-prev:after {
+    font-size: 25px !important;
+}
+.swiper-button-next {
+    top: 50px;
+    right: 35px;
+}
+.swiper-button-next:after {
+    font-size: 25px !important;
+}
+.swiper .swiper-zoom-container img {
+    width: 100%;
+    border-radius: 23px;
+}
+.swiper-pagination-bullet {
+    background-color: white;
+}
+
+
+
+/* @media screen and (max-width: 992px) {
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        font-size: 18px !important;
+    }
+} */
+/* 
+@media screen and (min-width: 1200px) {
+    .Featured-main {
+        height: 850px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .Featured-main {
+        height: 950px;
+    }
+} */
